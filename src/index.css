@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.map-container {
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.sidebar {
+    background-color: rgb(35 55 75 / 90%);
+    color: #fff;
+    height: auto;
+    max-height: 90vh;
+    max-width: 40vw;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+button {
+    background-color: rgb(35 55 75 / 90%);
+    color: #fff;
+    font-family: monospace;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+button:hover {
+    background-color: rgb(18, 47, 75);
+}
